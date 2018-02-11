@@ -12,9 +12,6 @@
 		D902232520231C3C00347775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D902232320231C3C00347775 /* Main.storyboard */; };
 		D902232720231C3C00347775 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D902232620231C3C00347775 /* Assets.xcassets */; };
 		D902232A20231C3C00347775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D902232820231C3C00347775 /* LaunchScreen.storyboard */; };
-		D902233520231C3C00347775 /* Cat_YearsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902233420231C3C00347775 /* Cat_YearsTests.swift */; };
-		D902234020231C3C00347775 /* Cat_YearsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D902233F20231C3C00347775 /* Cat_YearsUITests.swift */; };
-		D902234E20231E3F00347775 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = D902234D20231E3F00347775 /* cat.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,12 +40,7 @@
 		D902232920231C3C00347775 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D902232B20231C3C00347775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D902233020231C3C00347775 /* Cat YearsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat YearsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D902233420231C3C00347775 /* Cat_YearsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_YearsTests.swift; sourceTree = "<group>"; };
-		D902233620231C3C00347775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D902233B20231C3C00347775 /* Cat YearsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cat YearsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D902233F20231C3C00347775 /* Cat_YearsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_YearsUITests.swift; sourceTree = "<group>"; };
-		D902234120231C3C00347775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D902234D20231E3F00347775 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cat.png; path = "../../../../MyAppCreations/Cat Years/Cat Years/cat.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				D902231E20231C3C00347775 /* Cat Years */,
-				D902233320231C3C00347775 /* Cat YearsTests */,
-				D902233E20231C3C00347775 /* Cat YearsUITests */,
 				D902231D20231C3C00347775 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,30 +92,11 @@
 				D902231F20231C3C00347775 /* AppDelegate.swift */,
 				D902232120231C3C00347775 /* ViewController.swift */,
 				D902232320231C3C00347775 /* Main.storyboard */,
-				D902234D20231E3F00347775 /* cat.png */,
 				D902232620231C3C00347775 /* Assets.xcassets */,
 				D902232820231C3C00347775 /* LaunchScreen.storyboard */,
 				D902232B20231C3C00347775 /* Info.plist */,
 			);
 			path = "Cat Years";
-			sourceTree = "<group>";
-		};
-		D902233320231C3C00347775 /* Cat YearsTests */ = {
-			isa = PBXGroup;
-			children = (
-				D902233420231C3C00347775 /* Cat_YearsTests.swift */,
-				D902233620231C3C00347775 /* Info.plist */,
-			);
-			path = "Cat YearsTests";
-			sourceTree = "<group>";
-		};
-		D902233E20231C3C00347775 /* Cat YearsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D902233F20231C3C00347775 /* Cat_YearsUITests.swift */,
-				D902234120231C3C00347775 /* Info.plist */,
-			);
-			path = "Cat YearsUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +208,6 @@
 			files = (
 				D902232A20231C3C00347775 /* LaunchScreen.storyboard in Resources */,
 				D902232720231C3C00347775 /* Assets.xcassets in Resources */,
-				D902234E20231E3F00347775 /* cat.png in Resources */,
 				D902232520231C3C00347775 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +242,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D902233520231C3C00347775 /* Cat_YearsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +249,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D902234020231C3C00347775 /* Cat_YearsUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

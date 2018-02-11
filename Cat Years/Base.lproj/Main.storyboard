@@ -25,7 +25,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LVr-h8-4WM" userLabel="Find age in cat years">
-                                <rect key="frame" x="50" y="260" width="275" height="30"/>
+                                <rect key="frame" x="105" y="260" width="165" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Find age in Cat years..."/>
                                 <connections>
@@ -53,7 +53,7 @@
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="oOL-LW-MIH"/>
                                 </connections>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat.png" translatesAutoresizingMaskIntoConstraints="NO" id="d9z-WO-oeY">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cat" translatesAutoresizingMaskIntoConstraints="NO" id="d9z-WO-oeY">
                                 <rect key="frame" x="74" y="410" width="226" height="210"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinY="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -67,10 +67,10 @@
                             <constraint firstItem="dLP-6a-D6h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="125" id="bNo-Dg-xGp"/>
                             <constraint firstItem="qD2-Gy-yAP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="bRz-5X-Lph"/>
                             <constraint firstItem="LVr-h8-4WM" firstAttribute="top" secondItem="dLP-6a-D6h" secondAttribute="bottom" constant="45" id="fyB-CB-tY5"/>
-                            <constraint firstItem="LVr-h8-4WM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="iB5-p8-4m2"/>
+                            <constraint firstItem="LVr-h8-4WM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="105" id="iB5-p8-4m2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="dLP-6a-D6h" secondAttribute="trailing" constant="125" id="k1B-mW-9l2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JxV-f1-ibg" secondAttribute="trailing" constant="20" id="p82-oV-yov"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LVr-h8-4WM" secondAttribute="trailing" constant="50" id="rLo-Md-4wj"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LVr-h8-4WM" secondAttribute="trailing" constant="105" id="rLo-Md-4wj"/>
                             <constraint firstItem="wdn-4m-3rK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="tXY-A7-qCK"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="wdn-4m-3rK" secondAttribute="trailing" constant="50" id="wbq-yi-eea"/>
                             <constraint firstItem="qD2-Gy-yAP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="xgT-fU-ost"/>
@@ -89,6 +89,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="cat.png" width="500" height="582"/>
+        <image name="cat" width="500" height="582"/>
     </resources>
 </document>

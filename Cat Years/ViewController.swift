@@ -41,7 +41,7 @@ class ViewController: UIViewController, UITextFieldDelegate {
         
         catAgeTextField.resignFirstResponder()
         
-        var catAge = Int(catAgeTextField.text!)!
+        var catAge = Int(catAgeTextField.text!) ?? Int(0)
         
         catAge = catAge * 7
         
